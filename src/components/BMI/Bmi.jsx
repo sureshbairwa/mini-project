@@ -41,7 +41,7 @@ const bmiCal = (e)=>{
   return (
 
     
-    <div className=' flex flex-row justify-center mt-40 border w-80 bg-lime-400 border-2 border-indigo-600 bg-purple-300'>
+    <div className=' h-96  flex flex-row justify-center mt-40 border w-80  border-2 border-black-600' id='bmical' >
        
        <div className="mt-10 flex flex-col items-center justify-center ">
         <form action="" onSubmit={bmiCal}>
@@ -69,8 +69,8 @@ const bmiCal = (e)=>{
             
             </div>
         </form>
-            <span className='mt-3 text-slate-500 '> Your BMI is {bmi}</span>
-            <span className='mt-2 mb-3 text-blue-500'>{message}</span>
+            <span className='mt-3 text-green-600 '> Your BMI is {bmi}</span>
+            <span className='mt-2 mb-3 text-sky-500'>{message}</span>
 
             {/* <span>{height}</span>
             <span>{weight}</span> */}
