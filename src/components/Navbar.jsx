@@ -9,8 +9,11 @@ const Navbar = () => {
                 <li className=' bg-green-400 rounded pl-3 pr-3 pt-1 pb-1'>
                     <a href='#bmical'>BMI Calculater</a>
                 </li>
-                <li className='ml-5 bg-red-400 rounded pl-3 pr-3 pt-1 pb-1'>
+                <li className=' bg-green-400 rounded pl-3 pr-3 pt-1 pb-1'>
                     <a href='#clock'>clock</a>
+                </li>
+                <li className=' bg-green-400 rounded pl-3 pr-3 pt-1 pb-1'>
+                    <a href='#analogclock'>Analog clock</a>
                 </li>
             </ul>
         </nav>

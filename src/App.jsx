@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Clock from './components/clock/Clock'
+import AnalogClock from './components/Analog Clock/AnalogClock'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,8 +15,9 @@ function App() {
 
         <Navbar/>
         <Home/>
-        {/* <h1 className='text-5xl underline'>hi</h1> */}
+       
         <Clock/>
+        <AnalogClock/>
         
         
       </div>
